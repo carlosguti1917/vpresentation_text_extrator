@@ -1,0 +1,8 @@
+# Processamento de video e OCR
+opencv-python>=4.9
+pytesseract>=0.3.10
+numpy>=1.26
+# Atencao: o pytesseract exige o motor Tesseract OCR instalado no sistema.
+# Windows: winget install UB-Mannheim.TesseractOCR  (marque o idioma Portuguese)
+# Linux:   sudo apt install tesseract-ocr tesseract-ocr-por
+# macOS:   brew install tesseract tesseract-lang
